@@ -1,11 +1,23 @@
-.env
-appsettings.json
-dotnet-image-script/dotnet/publish/appsettings.json
-# Node.js
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 node_modules/
-
-# Other patterns
-logs
-*.log
-npm-debug.log*
-...
+vendor/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+.tox/
+.bundle/
+Pods/
+.gradle/
+.terraform/
+bower_components/
+.cache/
+coverage/
